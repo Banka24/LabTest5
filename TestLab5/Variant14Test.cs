@@ -1,5 +1,4 @@
-﻿using System;
-using Lab5;
+﻿using Lab5;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace TestLab5;
@@ -18,7 +17,7 @@ public class Variant14Test
         };
 
         var expected = 9;
-        var actual = Varinat14.GetCountNegativeValues(array);
+        var actual = Variant14.GetCountNegativeValues(array);
         Assert.AreEqual(expected, actual);
     }
 
@@ -32,7 +31,7 @@ public class Variant14Test
         };
 
         var expected = 3;
-        var actual = Varinat14.GetCountNegativeValues(array);
+        var actual = Variant14.GetCountNegativeValues(array);
         Assert.AreEqual(expected, actual);
     }
 
@@ -46,7 +45,7 @@ public class Variant14Test
         };
 
         var expected = 4;
-        var actual = Varinat14.GetCountNegativeValues(array);
+        var actual = Variant14.GetCountNegativeValues(array);
         Assert.AreEqual(expected, actual);
     }
 
@@ -60,7 +59,7 @@ public class Variant14Test
         };
 
         var expected = 5;
-        var actual = Varinat14.GetCountNegativeValues(array);
+        var actual = Variant14.GetCountNegativeValues(array);
         Assert.AreEqual(expected, actual);
     }
 
@@ -74,7 +73,7 @@ public class Variant14Test
         };
 
         var expected = 2;
-        var actual = Varinat14.GetCountNegativeValues(array);
+        var actual = Variant14.GetCountNegativeValues(array);
         Assert.AreEqual(expected, actual);
     }
 
@@ -89,7 +88,7 @@ public class Variant14Test
         };
 
         var expected = 175;
-        var actual = Varinat14.GetResultMultiply(array);
+        var actual = Variant14.GetResultMultiply(array);
 
         Assert.AreEqual(expected, actual);
     }
@@ -105,7 +104,7 @@ public class Variant14Test
         };
 
         var expected = 448;
-        var actual = Varinat14.GetResultMultiply(array);
+        var actual = Variant14.GetResultMultiply(array);
 
         Assert.AreEqual(expected, actual);
     }
@@ -121,7 +120,7 @@ public class Variant14Test
         };
 
         var expected = 35;
-        var actual = Varinat14.GetResultMultiply(array);
+        var actual = Variant14.GetResultMultiply(array);
 
         Assert.AreEqual(expected, actual);
     }
@@ -137,7 +136,7 @@ public class Variant14Test
         };
 
         var expected = 25;
-        var actual = Varinat14.GetResultMultiply(array);
+        var actual = Variant14.GetResultMultiply(array);
 
         Assert.AreEqual(expected, actual);
     }
@@ -153,7 +152,7 @@ public class Variant14Test
         };
 
         var expected = 200;
-        var actual = Varinat14.GetResultMultiply(array);
+        var actual = Variant14.GetResultMultiply(array);
 
         Assert.AreEqual(expected, actual);
     }
@@ -169,7 +168,7 @@ public class Variant14Test
         };
 
         double[] expected = [-9, 2, -5];
-        var actual = Varinat14.GetArrayMinElements(array);
+        var actual = Variant14.GetArrayMinElements(array);
 
         CollectionAssert.AreEqual(expected, actual);
     }
@@ -185,7 +184,7 @@ public class Variant14Test
         };
 
         double[] expected = [5, 3, 0];
-        var actual = Varinat14.GetArrayMinElements(array);
+        var actual = Variant14.GetArrayMinElements(array);
 
         CollectionAssert.AreEqual(expected, actual);
     }
@@ -201,7 +200,7 @@ public class Variant14Test
         };
 
         double[] expected = [-15, -34, -5];
-        var actual = Varinat14.GetArrayMinElements(array);
+        var actual = Variant14.GetArrayMinElements(array);
 
         CollectionAssert.AreEqual(expected, actual);
     }
@@ -217,7 +216,7 @@ public class Variant14Test
         };
 
         double[] expected = [-9, 3, -5];
-        var actual = Varinat14.GetArrayMinElements(array);
+        var actual = Variant14.GetArrayMinElements(array);
 
         CollectionAssert.AreEqual(expected, actual);
     }
@@ -233,7 +232,7 @@ public class Variant14Test
         };
 
         double[] expected = [-9, 2, -25];
-        var actual = Varinat14.GetArrayMinElements(array);
+        var actual = Variant14.GetArrayMinElements(array);
 
         CollectionAssert.AreEqual(expected, actual);
     }
@@ -248,7 +247,7 @@ public class Variant14Test
         };
 
         double[] expected = [-5, -4, -5, -7];
-        var actual = Varinat14.GetNegativeValues(array);
+        var actual = Variant14.GetNegativeValues(array);
 
         CollectionAssert.AreEqual(expected, actual);
     }
@@ -263,7 +262,7 @@ public class Variant14Test
         };
 
         double[] expected = [-5, -7];
-        var actual = Varinat14.GetNegativeValues(array);
+        var actual = Variant14.GetNegativeValues(array);
 
         CollectionAssert.AreEqual(expected, actual);
     }
@@ -278,7 +277,7 @@ public class Variant14Test
         };
 
         double[] expected = [-5, -6, -7, -4, -5, -7];
-        var actual = Varinat14.GetNegativeValues(array);
+        var actual = Variant14.GetNegativeValues(array);
 
         CollectionAssert.AreEqual(expected, actual);
     }
@@ -293,7 +292,7 @@ public class Variant14Test
         };
 
         double[] expected = [-5, -4, -4, -5, -7];
-        var actual = Varinat14.GetNegativeValues(array);
+        var actual = Variant14.GetNegativeValues(array);
 
         CollectionAssert.AreEqual(expected, actual);
     }
@@ -308,7 +307,7 @@ public class Variant14Test
         };
 
         double[] expected = [-5, -7, -4, -5, -7, -4];
-        var actual = Varinat14.GetNegativeValues(array);
+        var actual = Variant14.GetNegativeValues(array);
 
         CollectionAssert.AreEqual(expected, actual);
     }

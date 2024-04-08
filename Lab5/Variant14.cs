@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 
 namespace Lab5;
 
-public class Varinat14
+public class Variant14
 {
     /// <summary>
     ///     Подсчёт количества отрицательных элементов двумерного массива
