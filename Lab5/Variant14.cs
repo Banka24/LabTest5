@@ -55,18 +55,23 @@ public class Varinat14
     {
         var rows = values.GetLength(0);
         var columns = values.GetLength(1);
-        var M = new double[rows];
+        var M = new List<double>();
 
         for (var i = 0; i < rows; i++)
         {
             var minValue = values[i, 0];
             for (var j = 1; j < columns; j++)
+            {
                 if (values[i, j] < minValue)
+                {
                     minValue = values[i, j];
-            M.Append(minValue);
+                }
+            }
+                
+            M.Add(minValue);
         }
 
-        return M;
+        return M.ToArray();
     }
 
     /// <summary>
@@ -79,8 +84,13 @@ public class Varinat14
         var G = new List<double>();
 
         foreach (var item in values)
+        {
             if (item < 0)
+            {
                 G.Add(item);
+            }
+        }
+            
         return G.ToArray();
     }
 }
